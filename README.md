@@ -18,15 +18,14 @@
 
 ## 시스템 아키텍처 
 프로젝트/
-├── app.py # 메인 애플리케이션
-├-- config.py # 설정 관리
-├── .env # 환경 변수
-├── 모듈/
-├── 프롬프트_handler.py # 프롬프트 템플릿 관리
-├-- chatgpt_integration.파이 # 열기AI API 통신
-├── 평가_processor.py # 평가 로직 처리
+ app.py # 메인 애플리케이션
+ config.py # 설정 관리
+ .env # 환경 변수
+ 모듈/
+ 프롬프트_handler.py # 프롬프트 템플릿 관리
+ chatgpt_integration.파이 # 열기AI API 통신
+ 평가_processor.py # 평가 로직 처리
 
-알았다.
 
 
 ## 설치 가이드 
@@ -36,24 +35,20 @@ git 클론 https://github.com/your-repo/self-introduction-evaluator.git
 CD 자기소개-evalu 작성자
 가상 환경 설정
 
-바시
-알았다.
+
 파이썬 - m venv venv
 소스 venv/bin/activate # Linux/Mac
 venv\\Scripts\\activate # Windows
 의존성 설치
 
-바시
-알았다.
+
 pip 설치 -r 요구 사항.txt
 환경 변수 설정 (.env 파일 생성)
 
-부러움
-알았다.
+
 OPENAI_API_KEY=your_openai_api_key_here
 실행 방법 
-바시
-알았다.
+
 streamlit 실행 app.py
 사용 방법 
 웹 브라우저에서 http://localhost:8501 접속
